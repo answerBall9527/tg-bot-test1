@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/next/tsconfig.json",
   "compilerOptions": {
+    "moduleResolution": "node",
     "target": "es6",
     "plugins": [
       {
